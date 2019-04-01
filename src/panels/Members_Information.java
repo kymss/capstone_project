@@ -141,6 +141,7 @@ public class Members_Information extends javax.swing.JPanel {
         jButton2 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(92, 92, 92));
+        setOpaque(false);
         setPreferredSize(new java.awt.Dimension(1105, 542));
 
         jLabel1.setText("First Name");
@@ -317,7 +318,7 @@ public class Members_Information extends javax.swing.JPanel {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel12)
                     .addComponent(Dp_end, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(110, Short.MAX_VALUE))
+                .addContainerGap(186, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -345,6 +346,7 @@ public class Members_Information extends javax.swing.JPanel {
             pst.setString(10, Dp_contactperson.getText());
             pst.setString(11, Dp_start.getText());
             pst.setString(12, Dp_end.getText());
+            pst.setString(13, setFirstname);
 
             pst.executeUpdate();
 

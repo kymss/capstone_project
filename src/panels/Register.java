@@ -36,7 +36,8 @@ public class Register extends javax.swing.JPanel {
         RG_PASSWORD = new javax.swing.JPasswordField();
         RG_CONFIRMPASSWORD = new javax.swing.JPasswordField();
 
-        setBackground(new java.awt.Color(92, 92, 92));
+        setBackground(new java.awt.Color(255, 255, 255));
+        setOpaque(false);
 
         jLabel17.setText("Name");
 
@@ -71,7 +72,7 @@ public class Register extends javax.swing.JPanel {
                     .addComponent(jLabel17))
                 .addGap(60, 60, 60)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(SAVE, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
+                    .addComponent(SAVE, javax.swing.GroupLayout.DEFAULT_SIZE, 263, Short.MAX_VALUE)
                     .addComponent(jComboBox1, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(RG_NAME)
                     .addComponent(RG_LASTNAME)
@@ -109,7 +110,7 @@ public class Register extends javax.swing.JPanel {
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(27, 27, 27)
                 .addComponent(SAVE)
-                .addContainerGap(266, Short.MAX_VALUE))
+                .addContainerGap(141, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
